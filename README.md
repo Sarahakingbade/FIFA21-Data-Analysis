@@ -10,7 +10,7 @@ I came across the dataset from a data cleaning challenge organized by a data ent
 The fifa21 raw data v2 dataset was sourced from kaggle [here](https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring). It contains 18,979 rows and 77 columns.
 
 ## Data Cleaning
-The data was efficiently cleaned using the Microsoft Power Query Editor of Microsoft Power  BI. The applied steps includes:
+The dataset was efficiently cleaned using the Microsoft Power Query Editor of Microsoft Power  BI. The applied steps includes:
 - **The “ID” column**
 
 I changed the datatype from whole number to text.
