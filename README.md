@@ -150,6 +150,6 @@ Before                  | After
 
 ## Conclusion
 
-In conclusion, the fifa21 raw data v2 dataset was efficiently cleaned. In the absence of it, the exploratory data analysis will be unsuccessful and produce false insights.
+In conclusion, the fifa21 raw data v2 dataset was efficiently cleaned. In the absence of the data cleaning, the exploratory data analysis will be unsuccessful and produce false insights.
 
 ![](Thank_you.png)
