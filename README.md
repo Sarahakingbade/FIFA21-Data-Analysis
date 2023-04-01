@@ -4,14 +4,14 @@
 
 ## Introduction
 This documentation describes the fifa21 raw data v2 dataset's data cleaning procedure.
-I came across the dataset from a data cleaning challenge organized by a data enthusiast in a bid to create an enabling environment for all levels of data analysts to flex their data cleaning skills. 
+I came across the dataset from a data cleaning challenge organized by some data enthusiasts in a bid to create an enabling environment for all levels of data analysts to flex their data cleaning skills. 
 
 ## Data Sourcing
 The fifa21 raw data v2 dataset was sourced from kaggle [here](https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring). It contains 18,979 rows and 77 columns.
 
 ## Data Cleaning
 The dataset was efficiently cleaned using the Microsoft Power Query Editor of Microsoft Power  BI. The applied steps includes:
-- **The “ID” column**
+- **The ID column**
 
 I changed the datatype from whole number to text.
 
@@ -19,7 +19,7 @@ Before              | After
 :------------------:|:------------------:
 ![](clean_ID.png)   |  ![](unclean_ID.png)
 
-- **The “photoUrl” column**
+- **The photoUrl column**
 
 This contained URLs to each player's photo but an error was noticed which caused the players’ photos to be unavailable. To fix this, I replaced “.com” and “_60” with “.net” and “_240” in the Url using the replace value function.
 
