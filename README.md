@@ -1,10 +1,16 @@
-# FIFA21-Data-Cleaning
+# FIFA21-Data-Analysis
 
 ![](intro_image.png)
 
 ## Introduction
 This documentation describes the fifa21 raw data v2 dataset's data cleaning procedure.
-I came across the dataset from a data cleaning challenge organized by some data enthusiasts in a bid to create an enabling environment for all levels of data analysts to flex their data cleaning skills. 
+I came across the dataset from a data cleaning challenge organized by some data enthusiasts in a bid to create an enabling environment for all levels of data analysts to flex their data cleaning skills.
+
+## Problem Statement
+1. What is the contract duration years?*
+2. What players are on loan or free contract?
+3. What are the players' values, Wages, and Release clause in Dollars?
+4. What are the players’ heights in (cm) and Weights in (lbs)?
 
 ## Data Sourcing
 The fifa21 raw data v2 dataset was sourced from kaggle [here](https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring). It contains 18,979 rows and 77 columns.
