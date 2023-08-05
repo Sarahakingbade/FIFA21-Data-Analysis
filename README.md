@@ -3,20 +3,39 @@
 ![](intro_image.png)
 
 ## Introduction
-This documentation describes the fifa21 raw data v2 dataset's data cleaning procedure.
-I came across the dataset from a data cleaning challenge organized by some data enthusiasts in a bid to create an enabling environment for all levels of data analysts to flex their data cleaning skills.
+
+This documentation describes the analysis of the "FIFA 21 messy, raw dataset for cleaning/ exploring". The raw data; “fifa21 raw data v2.csv” was used for the analysis.
 
 ## Problem Statement
-1. What is the contract duration years?*
+
+1. What is the contract duration years?
 2. What players are on loan or free contract?
 3. What are the players' values, Wages, and Release clause in Dollars?
 4. What are the players’ heights in (cm) and Weights in (lbs)?
 
-## Data Sourcing
-The fifa21 raw data v2 dataset was sourced from kaggle [here](https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring). It contains 18,979 rows and 77 columns.
+## Skills/Concepts Demonstrated
 
-## Data Cleaning
+The following Power BI features were incorporated:
+
+- Dax functions (CALCULATE, AVERAGE, RELATED, and SUM) were used.
+- Quick Measure
+- Filter
+- Power Query editor
+- Data Modelling star schema
+- Connecting slicers with the report
+- Visualization charts
+
+
+## Data Description
+
+The dataset contains 18,979 rows and 77 columns.
+
+The dataset (FIFA 21 messy, raw dataset for cleaning/ exploring) was sourced from [kaggle](https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring). 
+
+
+## Data Cleaning/Transformation
 The dataset was efficiently cleaned using the Microsoft Power Query Editor of Microsoft Power  BI. The applied steps includes:
+
 - **The ID column**
 
 I changed the datatype from whole number to text.
@@ -154,8 +173,18 @@ Before                  | After
 :----------------------:|:------------------:
 ![](unclean_Hits.png)   |   ![](clean_Hits.png)
 
-## Conclusion
+## Analysis and Visualization
 
-In conclusion, the fifa21 raw data v2 dataset was efficiently cleaned. In the absence of the data cleaning, the exploratory data analysis will be unsuccessful and produce false insights.
+- Main
+
+![](FIFA21_1.PNG)
+
+- Player's Profile
+
+![](FIFA21_2.PNG)
+
+## Conclusions and Recommendations
+
+In conclusion, the fifa21 raw data v2 dataset was efficiently cleaned. In the absence of the data cleaning, the analysis would have been unsuccessful and produced false insights.
 
 ![](Thank_you.png)
